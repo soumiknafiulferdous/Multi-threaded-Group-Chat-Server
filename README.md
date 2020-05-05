@@ -13,11 +13,11 @@ group chat. ”
 
 Let’s assume that there are two clients at this moment. Their names are: Ironman and Thor.
 Now we run another client program and give “Hulk” in the console as the input of client’s
-name. Now other existing client (in this example: Ironman and Thor) will see in their console
-that “ Hulk has joined the group chat. ” Now suppose, Ironman want to send a message in
+name. Other existing client (in this example: Ironman and Thor) will see in their console
+that “ Hulk has joined the group chat. ” Suppose, Ironman want to send a message in
 the group, he wants to say “ Hello ”. So he will write the message in his console and press
 enter. And it will go to server and the server will send this message to all of the existing
-clients. So all of the existing clients will see in their windows (consoles) that-
+clients. As a result, all of the existing clients will see in their windows (consoles) that-
 “ Ironman: Hello.”
 
 Now suppose, Ironman wants to leave the group-chat, he will have to simply stop his
