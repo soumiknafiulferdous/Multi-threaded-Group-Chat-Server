@@ -24,9 +24,8 @@ Now suppose, Ironman wants to leave the group-chat, he will have to simply stop 
 program by closing it. Then the server will have to notify other existing clients by sending
 them a server-message that “ Ironman has left the group chat.”
 
-There are many functions for sending and reading data. But here I use only writeBytes() and readLine() function on both server and client sides for this server. I also used a ClientHandler thread on the Server Side program for handling multiple
+There are many functions for sending and reading data. But here I only used writeBytes() and readLine() function on both server and client sides for this server. I also used a ClientHandler thread on the Server Side program for handling multiple
 clients. I kept a list of existing clients’ names and output-streams on the server side to send any
-message to all of them at once. I implemented simultaneous input/output for any client for this assignment. So
-I used two separate threads on the client side: one for input-stream and other for
-output-stream.
+message to all of them at once. I implemented simultaneous input/output for any client for this server. So
+I used two separate threads on the client side: one for input-stream and other for output-stream.
 
