@@ -4,7 +4,7 @@ A group chatting system is implemented where multiple clients can join the serve
 
 When the user run the server, server will wait until a client request comes. When we run a client program, this client request will go to the server and the server will create a new thread for this client. So the server can handle multiple clients by using different threads for each client.
 
-So when a new client joins the server, first thing the server will do is to create a separate
+When a new client joins the server, first thing the server will do is to create a separate
 thread for him/her. Then the server will ask his/her name by sending a message like “Enter
 your name:”. After getting this message from the server, we shall take input of client’s name
 from the client side program’s console. The new client will send this name to the server;
