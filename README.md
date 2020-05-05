@@ -1,6 +1,5 @@
 # Multithreaded Group Chat Server
 
-## Description 
 In this assignment, a group chatting system is implemented where multiple clients can join the server and can chat together like in a chat-group (think of facebook messenger group).
 
 When the user run the server, server will wait until a client request comes. When we run a client program, this client request will go to the server and the server will create a new thread for this client. So the server can handle multiple clients by using different threads for each client.
