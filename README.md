@@ -1,4 +1,4 @@
-# Multithreaded Group Chat Server
+# Multi-threaded Group Chat Server
 
 A group chatting system is implemented where multiple clients can join the server and can chat together like in a chat-group (think of facebook messenger group).
 
