@@ -2,7 +2,7 @@
 
 A chatting system is implemented where multiple clients can join the server and chat together like a chat-group. It is just like the facebook messenger group.
 
-When the user run the server, server will wait until a client request comes. When a client program is run, this client request will go to the server and the server will create a new thread for this client. So the server can handle multiple clients by using different threads for each client.
+When the user run the server, server will wait until a client request comes. When a client program is run, this client request will go to the server and the server will create a new thread for that client. So the server can handle multiple clients by using different threads for each client.
 
 When a new client joins the server, first thing the server will do is to create a separate
 thread for him/her. Then the server will ask his/her name by sending a message “Enter
