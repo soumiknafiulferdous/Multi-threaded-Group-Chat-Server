@@ -6,7 +6,7 @@ When the user run the server, server will wait until a client request comes. Whe
 
 When a new client joins the server, first thing the server will do is to create a separate
 thread for him/her. Then the server will ask his/her name by sending a message “Enter
-your name:”. After getting this message from the server, we shall take input of client’s name
+your name:”. After getting this message from the server,  client’s name will be taken as input
 from the client side program’s console. The new client will send this name to the server and server will store this information. Let’s assume, the new client’s name is Ironman. Server
 will also send a server-message to all of the existing clients that “ Ironman has joined the
 group chat. ”
