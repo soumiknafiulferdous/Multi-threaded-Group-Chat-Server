@@ -1,6 +1,6 @@
 # Multi-threaded Group Chat Server
 
-A chatting system is implemented where multiple clients can join the server and can chat together like in a chat-group. It is just like facebook messenger group.
+A chatting system is implemented where multiple clients can join the server and can chat together like in a chat-group. It is just like the facebook messenger group.
 
 When the user run the server, server will wait until a client request comes. When a client program is run, this client request will go to the server and the server will create a new thread for this client. So the server can handle multiple clients by using different threads for each client.
 
