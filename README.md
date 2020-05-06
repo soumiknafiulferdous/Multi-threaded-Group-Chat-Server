@@ -13,7 +13,7 @@ group chat."
 
 Let’s assume that there are two clients at this moment. Their names are: Ironman and Thor.
 Now, another client program can be run and provides 'Hulk' in the console as the input of client’s
-name. Other existing client (in this example: Ironman and Thor) will see in their console
+name. Other existing clients (in this example: Ironman and Thor) will see in their console
 that “Hulk has joined the group chat.” Suppose, Ironman want to send a message in
 the group, he wants to say “Hello”. So he will write the message in his console and press
 enter. And it will go to server and the server will send this message to all of the existing
