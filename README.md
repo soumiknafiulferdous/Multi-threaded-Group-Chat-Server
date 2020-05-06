@@ -21,7 +21,7 @@ clients. As a result, all of the existing clients will see in their windows (con
 “Ironman: Hello.”
 
 Now suppose, Ironman wants to leave the group-chat, he will have to simply stop his
-program by closing it. Then the server will have to notify other existing clients by sending
+program by closing it. Then the server will notify other existing clients by sending
 them a server-message that “Ironman has left the group chat.”
 
 There are many functions for sending and reading data. But here I only used writeBytes() and readLine() functions on both server and client sides for this server. I also used a ClientHandler thread on the Server Side program for handling multiple
